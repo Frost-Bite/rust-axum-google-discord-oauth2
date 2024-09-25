@@ -49,6 +49,6 @@ If you need more user identification and authorization handling, use the [Axum L
 
 If you're up for a challenge, try the [Rust10x Web App Blueprint](https://github.com/rust10x/rust-web-app). There’s a YouTube video explaining how everything works. If you're tired of the bad design of JWT (which, unfortunately, is very popular), this option is for you.
 
-[User Registration and Email Verification example](https://github.com/wpcodevo/rust-user-signup-forgot-password-email).
+[User Registration and Email Verification example](https://github.com/wpcodevo/rust-user-signup-forgot-password-email) - guide how to add a forgot/reset password feature in Axum.
 
-[Axum, PostgreSQL, & Email Verification example](https://github.com/AarambhDevHub/rust-backend-axum).
+[Axum, PostgreSQL, & Email Verification example](https://github.com/AarambhDevHub/rust-backend-axum) - some regional laws will require verification of collected emails. And as protection against bots.
