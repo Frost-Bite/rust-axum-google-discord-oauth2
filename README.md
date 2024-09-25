@@ -10,17 +10,16 @@ In the Nuxt folder, you'll find an example for frontend integration. It's simila
 - CORS support.
 - Axum for routing and request handling.
 
+# Installation
+
 Make sure you have the following installed:
 - Rust
 - Redis
 - Cargo
 
-# Installation
-
-## Environment Variables
 Set the environment variables to configure the OAuth providers in the `.env` file. Use the `env-example` file.
 
-Start the Redis server (default port 6379):
+Start the Redis server (default port 6379).
 ```bash
 cargo run
 ```
@@ -50,6 +49,6 @@ If you need more user identification and authorization handling, use the [Axum L
 
 If you're up for a challenge, try the [Rust10x Web App Blueprint](https://github.com/rust10x/rust-web-app). There’s a YouTube video explaining how everything works. If you're tired of the bad design of JWT (which, unfortunately, is very popular), this option is for you.
 
-[User Registration and Email Verification example](https://github.com/wpcodevo/rust-user-signup-forgot-password-email)
+[User Registration and Email Verification example](https://github.com/wpcodevo/rust-user-signup-forgot-password-email).
 
-[Axum, PostgreSQL, & Email Verification example](https://github.com/AarambhDevHub/rust-backend-axum)
+[Axum, PostgreSQL, & Email Verification example](https://github.com/AarambhDevHub/rust-backend-axum).
