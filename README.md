@@ -1,4 +1,4 @@
-# What if you need a simple OAuth authorization?
+# What if you need a simple Axum OAuth authorization?
 
 Here's another way to add OAuth2 to Axum. This code is a rewritten version of the Axum example found [here](https://github.com/tokio-rs/axum/tree/main/examples/oauth), but with the addition of Redis and multiple OAuth providers: Google and Discord. It uses the [OAuth2 crate](https://crates.io/crates/oauth2).
 
