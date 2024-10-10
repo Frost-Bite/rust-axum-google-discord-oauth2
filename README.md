@@ -45,6 +45,8 @@ Instead of Nuxt, you can use routes:
 4. The user info is fetched and stored in the Redis session.
 
 # Other Ways
+[oauth_axum](https://crates.io/crates/oauth-axum) - wrapper of oauth2 lib, but it has all the provider configuration done, making it easy to implement in your Axum.
+
 If you need more user identification and authorization handling, use the [Axum Login crate](https://crates.io/crates/axum-login). It's one of the simplest solutions and includes an example with OAuth2.
 
 If you're up for a challenge, try the [Rust10x Web App Blueprint](https://github.com/rust10x/rust-web-app). There’s a YouTube video explaining how everything works. If you're tired of the bad design of JWT (which, unfortunately, is very popular), this option is for you.
